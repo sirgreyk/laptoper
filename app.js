@@ -30,7 +30,7 @@ if(!isProduction) {
 
 
 //Configure Mongoose :
-mongoose.connect('mongodb://laptoper:199729Qq@ds233737.mlab.com:33737/laptoper')
+mongoose.connect('mongodb://<mlabpasswordandloginhere>')
   .then(() => console.log('--- db connected.'))
   .catch(err => console.error(err))
 
